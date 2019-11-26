@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03f210f0-b5fe-4432-9362-d270fafb434e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py" afterPath="$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py" afterPath="$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/element_locator/papaandroid.py" afterPath="$PROJECT_DIR$/element_locator/papaandroid.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_firstpage_creditorder.coverage" NAME="TC_xygjandroid_firstpage_creditorder Coverage Results" MODIFIED="1531712534061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_Advisory2.coverage" NAME="TC_xygjandroid_service_Advisory2 Coverage Results" MODIFIED="1531993255378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_problem2.coverage" NAME="TC_xygjandroid_service_problem2 Coverage Results" MODIFIED="1531713073928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Nosetests_for_TC_klmandorid_maoliangpay_Case_test_smallml.coverage" NAME="Nosetests for TC_klmandorid_maoliangpay.Case.test_smallml Coverage Results" MODIFIED="1516071161038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$test.coverage" NAME="test Coverage Results" MODIFIED="1530608066282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_selected.coverage" NAME="TC_xygjandroid_service_selected Coverage Results" MODIFIED="1530261897566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_verify_vip_personal_center.coverage" NAME="TC_klmandroid_verify_vip_personal_center Coverage Results" MODIFIED="1527038189316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_FirstPage.coverage" NAME="TC_klmandroid_FirstPage Coverage Results" MODIFIED="1518317191022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$login.coverage" NAME="login Coverage Results" MODIFIED="1528881573697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_saling_above.coverage" NAME="TC_ppandroid_saling_above Coverage Results" MODIFIED="1533540604836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_searchbox.coverage" NAME="TC_xygjandroid_service_searchbox Coverage Results" MODIFIED="1530265301618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$Nosetests_in_test2_py.coverage" NAME="Nosetests in test2.py Coverage Results" MODIFIED="1532080862125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_entrance.coverage" NAME="TC_xygjandroid_service_entrance Coverage Results" MODIFIED="1530263949343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_handlecard.coverage" NAME="TC_xygjandroid_handlecard Coverage Results" MODIFIED="1531972927821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_Advisory.coverage" NAME="TC_xygjandroid_service_Advisory Coverage Results" MODIFIED="1531990937914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_singleSKUBuy.coverage" NAME="TC_klmandroid_singleSKUBuy Coverage Results" MODIFIED="1527038720076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_saling.coverage" NAME="TC_ppandroid_saling Coverage Results" MODIFIED="1533519815587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$Nosetests_for_TC_xygjandroid_service_comments_Case_test_service_comments.coverage" NAME="Nosetests for TC_xygjandroid_service_comments.Case.test_service_comments Coverage Results" MODIFIED="1530252696947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_Verify_nologin_personal_center_py.coverage" NAME="TC_klmandroid_Verify_nologin_personal_center.py Coverage Results" MODIFIED="1516074518567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login5.coverage" NAME="login5 Coverage Results" MODIFIED="1529475988039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_saling.coverage" NAME="TC_ppandroid_saling Coverage Results" MODIFIED="1535439929914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_addbill2.coverage" NAME="TC_xygjandroid_addbill2 Coverage Results" MODIFIED="1532398279889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login4.coverage" NAME="login4 Coverage Results" MODIFIED="1529475424673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$run_all_cases_all.coverage" NAME="run_all_cases_all Coverage Results" MODIFIED="1533605430819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$firstpage.coverage" NAME="firstpage Coverage Results" MODIFIED="1531711307192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_case_addbill_py.coverage" NAME="run_all_case_addbill.py Coverage Results" MODIFIED="1532399110812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_multipleSKUShoppingcart_buy.coverage" NAME="TC_klmandroid_multipleSKUShoppingcart_buy Coverage Results" MODIFIED="1525925027947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_hybridSKUShoppingCart.coverage" NAME="TC_klmandroid_hybridSKUShoppingCart Coverage Results" MODIFIED="1526970346740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_new_py.coverage" NAME="TC_ppandroid_new.py Coverage Results" MODIFIED="1532574566098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandorid_maoliang_py.coverage" NAME="TC_klmandorid_maoliang.py Coverage Results" MODIFIED="1526968096916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$run_all_cases_login_py.coverage" NAME="run_all_cases_all Coverage Results" MODIFIED="1533286078090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_my_py.coverage" NAME="TC_ppandroid_nologin_my Coverage Results" MODIFIED="1532489769320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$modifyOrder.coverage" NAME="modifyOrder Coverage Results" MODIFIED="1531711839656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_selected.coverage" NAME="TC_xygjandroid_service_selected Coverage Results" MODIFIED="1531712726146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_multipleShoppingcartcheck.coverage" NAME="TC_klmandroid_multipleShoppingcartcheck Coverage Results" MODIFIED="1526967395238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login9.coverage" NAME="login9 Coverage Results" MODIFIED="1529479080325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_buy_above.coverage" NAME="TC_ppandroid_buy_above Coverage Results" MODIFIED="1533526510127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1532070287515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1529925108958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$my.coverage" NAME="my Coverage Results" MODIFIED="1528885572334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$login.coverage" NAME="login Coverage Results" MODIFIED="1532075163297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_handlecard_demo1.coverage" NAME="TC_xygjandroid_handlecard_demo1 Coverage Results" MODIFIED="1530760648211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_firstpage.coverage" NAME="TC_ppandroid_nologin_firstpage Coverage Results" MODIFIED="1533519230592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_history.coverage" NAME="TC_xygjandroid_service_history Coverage Results" MODIFIED="1531719485597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$firstpage.coverage" NAME="firstpage Coverage Results" MODIFIED="1529927068282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandorid_maoliangpay_py.coverage" NAME="TC_klmandorid_maoliangpay.py Coverage Results" MODIFIED="1527039317756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1531723395366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_overseas_purchase_py.coverage" NAME="TC_klmandroid_overseas_purchase.py Coverage Results" MODIFIED="1526262932208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_old.coverage" NAME="TC_ppandroid_old Coverage Results" MODIFIED="1532664829837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_cases_service.coverage" NAME="run_all_cases_service Coverage Results" MODIFIED="1532055091156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login2.coverage" NAME="login2 Coverage Results" MODIFIED="1529585254828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$modifyname.coverage" NAME="modifyname Coverage Results" MODIFIED="1531475376873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_problem.coverage" NAME="TC_xygjandroid_service_problem Coverage Results" MODIFIED="1531713251118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid9_unlogin.coverage" NAME="TC_ppandroid9_unlogin Coverage Results" MODIFIED="1533607790361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_saling_below.coverage" NAME="TC_ppandroid_saling_below Coverage Results" MODIFIED="1533026249366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login7.coverage" NAME="login7 Coverage Results" MODIFIED="1529476263982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$service_problem2.coverage" NAME="service_problem2 Coverage Results" MODIFIED="1530668449559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_searchbox.coverage" NAME="TC_xygjandroid_service_searchbox Coverage Results" MODIFIED="1531712947016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$run_all_cases_new.coverage" NAME="run_all_cases_new Coverage Results" MODIFIED="1533178508198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_cases_login.coverage" NAME="run_all_cases_login Coverage Results" MODIFIED="1532080855257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_input.coverage" NAME="TC_xygjandroid_service_input Coverage Results" MODIFIED="1531723510113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_message.coverage" NAME="TC_xygjandroid_service_message Coverage Results" MODIFIED="1530265127324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Nosetests_in_TC_klmandroid_shoppingcart_editor_py.coverage" NAME="Nosetests in TC_klmandroid_shoppingcart_editor.py Coverage Results" MODIFIED="1517968858542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Nosetests_for_TC_klmandorid_maoliangpay_Case_test_vipml.coverage" NAME="Nosetests for TC_klmandorid_maoliangpay.Case.test_vipml Coverage Results" MODIFIED="1516070594557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$service.coverage" NAME="service Coverage Results" MODIFIED="1530067625742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_multipleSKUBuy.coverage" NAME="TC_klmandroid_multipleSKUBuy Coverage Results" MODIFIED="1527038477015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_history.coverage" NAME="TC_xygjandroid_service_history Coverage Results" MODIFIED="1530263346170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1532945087450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_1Verify_nologin_personal_center.coverage" NAME="TC_klmandroid_1Verify_nologin_personal_center Coverage Results" MODIFIED="1528775069381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_input.coverage" NAME="TC_xygjandroid_service_input Coverage Results" MODIFIED="1530267566994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_buy_below.coverage" NAME="TC_ppandroid_buy_below Coverage Results" MODIFIED="1533522734187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$login3.coverage" NAME="login3 Coverage Results" MODIFIED="1531473246989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_shoppingcart_editor.coverage" NAME="TC_klmandroid_shoppingcart_editor Coverage Results" MODIFIED="1526969165014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$my.coverage" NAME="my Coverage Results" MODIFIED="1529663234979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_case_firstpage.coverage" NAME="run_all_case_firstpage Coverage Results" MODIFIED="1532054323288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$modifyOrder.coverage" NAME="modifyOrder Coverage Results" MODIFIED="1529891081541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1532348885028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_my.coverage" NAME="TC_ppandroid_nologin_my Coverage Results" MODIFIED="1533519329853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$modifyname.coverage" NAME="modifyname Coverage Results" MODIFIED="1529891706633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Nosetests_in_TC_klmandorid_maoliangpay_py.coverage" NAME="Nosetests in TC_klmandorid_maoliangpay.py Coverage Results" MODIFIED="1516071353379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandorid_maolianghb_py.coverage" NAME="TC_klmandorid_maolianghb.py Coverage Results" MODIFIED="1526967872600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_message.coverage" NAME="TC_xygjandroid_service_message Coverage Results" MODIFIED="1531713536383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$run_all_case_handlecard.coverage" NAME="run_all_case_handlecard Coverage Results" MODIFIED="1532054111043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$Login_py.coverage" NAME="Login.py Coverage Results" MODIFIED="1532948340522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1516070154962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_jinpai.coverage" NAME="TC_xygjandroid_jinpai Coverage Results" MODIFIED="1531215510187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$run_all_cases.coverage" NAME="run_all_cases Coverage Results" MODIFIED="1528797541122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_my.coverage" NAME="TC_ppandroid_nologin_my Coverage Results" MODIFIED="1535436630242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_firstpage.coverage" NAME="TC_ppandroid_nologin_firstpage Coverage Results" MODIFIED="1535436459153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$run_all_cases_all.coverage" NAME="run_all_cases_all Coverage Results" MODIFIED="1535447619771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_comments.coverage" NAME="TC_xygjandroid_service_comments Coverage Results" MODIFIED="1531720443974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1530845669864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1530086640923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_singleSKUShoppingcart_buy.coverage" NAME="TC_klmandroid_singleSKUShoppingcart_buy Coverage Results" MODIFIED="1527038937499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_first_sale.coverage" NAME="TC_ppandroid_first_sale Coverage Results" MODIFIED="1533521462847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_entrance.coverage" NAME="TC_xygjandroid_service_entrance Coverage Results" MODIFIED="1531719802018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$Nosetests_for_TC_klmandorid_maoliangpay_Case_test_bigml.coverage" NAME="Nosetests for TC_klmandorid_maoliangpay.Case.test_bigml Coverage Results" MODIFIED="1516070677688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$test1.coverage" NAME="test_db.py Coverage Results" MODIFIED="1532948865437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_CollectGoods.coverage" NAME="TC_klmandroid_CollectGoods Coverage Results" MODIFIED="1525924626958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$testrandom.coverage" NAME="testrandom Coverage Results" MODIFIED="1530518929274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$testwyx.coverage" NAME="testwyx Coverage Results" MODIFIED="1529929951845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$encrypt.coverage" NAME="encrypt Coverage Results" MODIFIED="1533020231615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_buy_below.coverage" NAME="TC_ppandroid_buy_below Coverage Results" MODIFIED="1535443065309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login6.coverage" NAME="login6 Coverage Results" MODIFIED="1529476188526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login3.coverage" NAME="login3 Coverage Results" MODIFIED="1529475293357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_product.coverage" NAME="TC_ppandroid_nologin_product Coverage Results" MODIFIED="1535436860809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_Information.coverage" NAME="TC_xygjandroid_service_Information Coverage Results" MODIFIED="1531714320468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login8.coverage" NAME="login8 Coverage Results" MODIFIED="1529477792381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_handlecard_test1.coverage" NAME="TC_xygjandroid_handlecard_test1 Coverage Results" MODIFIED="1531972938669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/handlecard" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_first_sale.coverage" NAME="TC_ppandroid_first_sale Coverage Results" MODIFIED="1535442273709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$C_xygjandroid11_addbill.coverage" NAME="C_xygjandroid11_addbill Coverage Results" MODIFIED="1532326932266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$demo2_.coverage" NAME="demo2  Coverage Results" MODIFIED="1531468596908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$addloan.coverage" NAME="addloan Coverage Results" MODIFIED="1531710922407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$my.coverage" NAME="my Coverage Results" MODIFIED="1531710649698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$login.coverage" NAME="login Coverage Results" MODIFIED="1529585973560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/klm_android_official$TC_klmandroid_listSPUShoppingcart.coverage" NAME="TC_klmandroid_listSPUShoppingcart Coverage Results" MODIFIED="1523947369133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$TC_xygjandroid_service_Information.coverage" NAME="TC_xygjandroid_service_Information Coverage Results" MODIFIED="1530262928268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/UIAutoTestCase_papa$TC_ppandroid_buy_above.coverage" NAME="TC_ppandroid_buy_above Coverage Results" MODIFIED="1535445602376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/UIAutoTestCase_papa$TC_ppandroid_nologin_product.coverage" NAME="TC_ppandroid_nologin_product Coverage Results" MODIFIED="1533519420804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/PyCharm2017.1/coverage/xygj_android_official$addloan.coverage" NAME="addloan Coverage Results" MODIFIED="1529907884707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="PyCharm2017.1/coverage/xygj_android_official$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1530845740739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="xygj_android_official" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TC_ppandroid1_nologin_firstpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid1_nologin_firstpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid2_nologin_my.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid2_nologin_my.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid4_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid4_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql_dict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/sql_dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid6_saling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid6_saling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid3_nologin_product.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid3_nologin_product.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid5_old.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="81" column="58" lean-forward="false" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+              <folding>
+                <marker date="1535530416377" expanded="true" signature="411:412" ph="..." />
+                <marker date="1535530416377" expanded="true" signature="3542:3616" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid9_saling_above.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid9_saling_above.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="111" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC_ppandroid8_buy_below.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="papaandroid.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/element_locator/papaandroid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fo</find>
+      <find>device_list</find>
+      <find>x</find>
+      <find>xin t j</find>
+      <find>xin t</find>
+      <find>xin</find>
+      <find>xin y</find>
+      <find>xin y k</find>
+      <find>信用卡f</find>
+      <find>信用卡分销</find>
+      <find>信用卡分</find>
+      <find>信用卡</find>
+      <find>信用g</find>
+      <find>信用gu</find>
+      <find>信用gua</find>
+      <find>信用guan</find>
+      <find>信用guan j</find>
+      <find>信用guan ji</find>
+      <find>信用管家</find>
+      <find>td</find>
+      <find>_TestResult</find>
+      <find>com.greate.myapplication:id/text_pwdlogin</find>
+      <find>xygjandroid</find>
+      <find>￥</find>
+      <find>立即平贵</find>
+      <find>转卖</find>
+      <find>银行</find>
+      <find>信用</find>
+      <find>银行卡</find>
+      <find>现金</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>float</replace>
+      <replace>pymysql</replace>
+      <replace>$USER_HOME$/selenium</replace>
+      <replace>xygjandroid</replace>
+      <replace>papaandroid</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TestCase/TC_xygjandroid_addbill2.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_xygjandroid_addbill1.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_xygjandroid_login1.py" />
+        <option value="$PROJECT_DIR$/TestCase/handlecard/TC_xygjandroid_handlecard_test1.py" />
+        <option value="$PROJECT_DIR$/common/main_package.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_new_saling.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_new_sale.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_saling_3/5000   below.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_certification.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_nologin_product.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_nologin_firstpage.py" />
+        <option value="$PROJECT_DIR$/test/test1.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal.py" />
+        <option value="$PROJECT_DIR$/Task/TK_papaandroid.py" />
+        <option value="$PROJECT_DIR$/common/csorder.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal_csldata.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal_csorder.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal_cspown.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal_csmall.py" />
+        <option value="$PROJECT_DIR$/common/md5.py" />
+        <option value="$PROJECT_DIR$/common/cfg.py" />
+        <option value="$PROJECT_DIR$/test/test2.py" />
+        <option value="$PROJECT_DIR$/common/Login.py" />
+        <option value="$PROJECT_DIR$/test/test_db.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_saling.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_old.py" />
+        <option value="$PROJECT_DIR$/common/encrypt.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_saling_below.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_new.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_nologin_my.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_buy_below.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_saling_above.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_buy_above.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid_first_sale.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid6_saling.py" />
+        <option value="$PROJECT_DIR$/run_all_cases_login.py" />
+        <option value="$PROJECT_DIR$/run_all_cases_new.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_1ppandroid9_buy_above.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_1ppandroid10_saling_above.py" />
+        <option value="$PROJECT_DIR$/common/sql_normal_cscuser.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid9_unlogin.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid9_saling_above.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid2_nologin_my.py" />
+        <option value="$PROJECT_DIR$/Task/TK_TerminalHandle.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid1_nologin_firstpage.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid7_first_sale.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid9_buy_above.py" />
+        <option value="$PROJECT_DIR$/element_locator/papaandroid.py" />
+        <option value="$PROJECT_DIR$/run_all_cases_all.py" />
+        <option value="$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
+    <option name="y" value="99" />
+    <option name="width" value="1387" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element_locator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIAutoTestCase_papa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/TestCase/service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestCase" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/TASK_weixin" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all_cases_all">
+    <configuration default="false" name="Nosetests in test2.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python34\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_klmandorid_maoliangpay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="klm_android_official" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid2_nologin_my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests for TC_xygjandroid_service_comments.Case.test_service_comments" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TC_xygjandroid_service_comments.Case.test_service_comments&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_nologin_my" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid2_nologin_my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_nologin_firstpage" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid1_nologin_firstpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_nologin_product" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid3_nologin_product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_new.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid4_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_old" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_first_sale" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid7_first_sale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_saling" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid6_saling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_db.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Login.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="encrypt" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/encrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_saling_below" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_all_cases_new" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_cases_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_buy_above" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid9_buy_above.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_saling_above" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid9_saling_above.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid_buy_below" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_all_cases_all" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_cases_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TC_ppandroid9_unlogin" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/TC_ppandroid9_unlogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="21">
+      <item index="0" class="java.lang.String" itemvalue="Python.login" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for TC_xygjandroid_service_comments.Case.test_service_comments" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TC_ppandroid_nologin_my" />
+      <item index="3" class="java.lang.String" itemvalue="Python.TC_ppandroid_nologin_firstpage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TC_ppandroid_nologin_product" />
+      <item index="5" class="java.lang.String" itemvalue="Python.TC_ppandroid_new.py" />
+      <item index="6" class="java.lang.String" itemvalue="Python.TC_ppandroid_old" />
+      <item index="7" class="java.lang.String" itemvalue="Python.TC_ppandroid_first_sale" />
+      <item index="8" class="java.lang.String" itemvalue="Python.TC_ppandroid_saling" />
+      <item index="9" class="java.lang.String" itemvalue="Python.test_db.py" />
+      <item index="10" class="java.lang.String" itemvalue="Python.Login.py" />
+      <item index="11" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="12" class="java.lang.String" itemvalue="Python.encrypt" />
+      <item index="13" class="java.lang.String" itemvalue="Python.TC_ppandroid_saling_below" />
+      <item index="14" class="java.lang.String" itemvalue="Python.run_all_cases_new" />
+      <item index="15" class="java.lang.String" itemvalue="Python.TC_ppandroid_buy_above" />
+      <item index="16" class="java.lang.String" itemvalue="Python.TC_ppandroid_saling_above" />
+      <item index="17" class="java.lang.String" itemvalue="Python.TC_ppandroid_buy_below" />
+      <item index="18" class="java.lang.String" itemvalue="Python.run_all_cases_all" />
+      <item index="19" class="java.lang.String" itemvalue="Python.TC_ppandroid9_unlogin" />
+      <item index="20" class="java.lang.String" itemvalue="Python tests.Nosetests in test2.py" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test2.py" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="klm_android_official" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03f210f0-b5fe-4432-9362-d270fafb434e" name="Default" comment="" />
+      <created>1516070064860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516070064860</updated>
+    </task>
+    <task id="LOCAL-00028" summary="维护现有脚本">
+      <created>1530606077803</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1530606077803</updated>
+    </task>
+    <task id="LOCAL-00029" summary="webview页面定位问题解决">
+      <created>1530610524143</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1530610524143</updated>
+    </task>
+    <task id="LOCAL-00030" summary="webview页面定位问题解决">
+      <created>1530614209523</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1530614209523</updated>
+    </task>
+    <task id="LOCAL-00031" summary="服务模块自动化测试用例编写整理">
+      <created>1530669522734</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1530669522734</updated>
+    </task>
+    <task id="LOCAL-00032" summary="新增办卡模块，用例编写中&#10;办卡模块元素定位，用例编写中">
+      <created>1530686353196</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1530686353196</updated>
+    </task>
+    <task id="LOCAL-00033" summary="新增办卡模块，用例编写中&#10;办卡模块元素定位，用例编写中">
+      <created>1530698989344</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1530698989344</updated>
+    </task>
+    <task id="LOCAL-00034" summary="新增办卡模块，用例编写中&#10;办卡模块元素定位，用例编写中">
+      <created>1530700627822</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1530700627822</updated>
+    </task>
+    <task id="LOCAL-00035" summary="新增办卡模块，用例编写中&#10;办卡模块元素定位，用例编写中">
+      <created>1530774679301</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1530774679301</updated>
+    </task>
+    <task id="LOCAL-00036" summary="调整文件目录">
+      <created>1530782823151</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1530782823151</updated>
+    </task>
+    <task id="LOCAL-00037" summary="调整文件目录">
+      <created>1531108436932</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1531108436932</updated>
+    </task>
+    <task id="LOCAL-00038" summary="微信公众号ui自动化的demo测试完成">
+      <created>1531138335051</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1531138335051</updated>
+    </task>
+    <task id="LOCAL-00039" summary="信用管家app&#10;代码定期维护">
+      <created>1531723493185</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1531723493186</updated>
+    </task>
+    <task id="LOCAL-00040" summary="信用管家app&#10;代码定期维护">
+      <created>1531724675897</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1531724675897</updated>
+    </task>
+    <task id="LOCAL-00041" summary="信用管家app&#10;代码定期维护">
+      <created>1531971874289</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1531971874289</updated>
+    </task>
+    <task id="LOCAL-00042" summary="信用管家app&#10;代码定期维护">
+      <created>1531979662127</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1531979662127</updated>
+    </task>
+    <task id="LOCAL-00043" summary="信用管家app&#10;代码定期维护">
+      <created>1531979758700</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1531979758700</updated>
+    </task>
+    <task id="LOCAL-00044" summary="信用管家app&#10;代码定期维护">
+      <created>1531984192348</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1531984192348</updated>
+    </task>
+    <task id="LOCAL-00045" summary="信用管家app&#10;代码定期维护">
+      <created>1531991991936</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1531991991937</updated>
+    </task>
+    <task id="LOCAL-00046" summary="信用管家app&#10;代码定期维护">
+      <created>1532055533439</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1532055533439</updated>
+    </task>
+    <task id="LOCAL-00047" summary="信用管家app&#10;代码定期维护">
+      <created>1532075470200</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1532075470200</updated>
+    </task>
+    <task id="LOCAL-00048" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532327073760</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1532327073760</updated>
+    </task>
+    <task id="LOCAL-00049" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532327306467</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1532327306467</updated>
+    </task>
+    <task id="LOCAL-00050" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532327741717</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1532327741719</updated>
+    </task>
+    <task id="LOCAL-00051" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532328103861</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1532328103861</updated>
+    </task>
+    <task id="LOCAL-00052" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532328369953</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1532328369953</updated>
+    </task>
+    <task id="LOCAL-00053" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532330637004</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1532330637004</updated>
+    </task>
+    <task id="LOCAL-00054" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532333354222</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1532333354222</updated>
+    </task>
+    <task id="LOCAL-00055" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532333456773</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1532333456773</updated>
+    </task>
+    <task id="LOCAL-00056" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532334316434</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1532334316434</updated>
+    </task>
+    <task id="LOCAL-00057" summary="信用管家app&#10;增加手工添加订单">
+      <created>1532334561327</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1532334561327</updated>
+    </task>
+    <task id="LOCAL-00058" summary="啪啪钱包项目 &#10;test">
+      <created>1532415639637</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1532415639638</updated>
+    </task>
+    <task id="LOCAL-00059" summary="啪啪钱包项目 &#10;元素定位初步编写">
+      <created>1532425055873</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1532425055874</updated>
+    </task>
+    <task id="LOCAL-00060" summary="啪啪钱包项目 &#10;未登录状态的脚本编写运行">
+      <created>1532506989847</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1532506989847</updated>
+    </task>
+    <task id="LOCAL-00061" summary="啪啪钱包项目 &#10;未登录状态的脚本编写运行">
+      <created>1532571409660</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1532571409660</updated>
+    </task>
+    <task id="LOCAL-00062" summary="啪啪钱包项目 &#10;脚本框架">
+      <created>1532604733629</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1532604733629</updated>
+    </task>
+    <task id="LOCAL-00063" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1532679703431</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1532679703431</updated>
+    </task>
+    <task id="LOCAL-00064" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533095298959</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1533095298959</updated>
+    </task>
+    <task id="LOCAL-00065" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533115359523</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1533115359523</updated>
+    </task>
+    <task id="LOCAL-00066" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533115364599</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1533115364600</updated>
+    </task>
+    <task id="LOCAL-00067" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533115369896</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1533115369896</updated>
+    </task>
+    <task id="LOCAL-00068" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533279679453</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1533279679453</updated>
+    </task>
+    <task id="LOCAL-00069" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533286537477</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1533286537477</updated>
+    </task>
+    <task id="LOCAL-00070" summary="啪啪钱包项目 &#10;更新代码">
+      <created>1533289713532</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1533289713532</updated>
+    </task>
+    <task id="LOCAL-00071" summary="啪啪钱包项目 &#10;转卖流程代码更新">
+      <created>1533291507664</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1533291507664</updated>
+    </task>
+    <task id="LOCAL-00072" summary="啪啪钱包项目 &#10;转卖流程代码更新">
+      <created>1533526814485</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1533526814485</updated>
+    </task>
+    <task id="LOCAL-00073" summary="啪啪钱包项目 &#10;代码修改">
+      <created>1533527339376</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1533527339376</updated>
+    </task>
+    <task id="LOCAL-00074" summary="啪啪钱包项目 &#10;代码修改">
+      <created>1533540504453</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1533540504453</updated>
+    </task>
+    <task id="LOCAL-00075" summary="啪啪钱包项目 &#10;代码修改">
+      <created>1533607852873</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1533607852873</updated>
+    </task>
+    <task id="LOCAL-00076" summary="啪啪钱包项目 &#10;2。1。4项目代码更新">
+      <created>1535446690549</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1535446690551</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_bigml - 2018.01.16 at 10h 40m 22s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_bigml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_bigml - 2018.01.16 at 10h 44m 09s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_bigml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_bigml - 2018.01.16 at 10h 48m 13s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_bigml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_smallml - 2018.01.16 at 10h 52m 02s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_smallml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_smallml - 2018.01.16 at 10h 55m 55s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_smallml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_klmandorid_maoliangpay_Case_test_vipml - 2018.01.16 at 10h 43m 29s.xml">
+      <configuration name="Nosetests for TC_klmandorid_maoliangpay.Case.test_vipml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_TC_xygjandroid_service_comments_Case_test_service_comments - 2018.06.29 at 14h 11m 37s.xml">
+      <configuration name="Nosetests for TC_xygjandroid_service_comments.Case.test_service_comments" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TC_klmandorid_maoliangpay_py - 2018.01.16 at 10h 58m 22s.xml">
+      <configuration name="Nosetests in TC_klmandorid_maoliangpay.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TC_klmandroid_shoppingcart_editor_py - 2018.02.07 at 10h 00m 59s.xml">
+      <configuration name="Nosetests in TC_klmandroid_shoppingcart_editor.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test2_py - 2018.07.20 at 18h 01m 02s.xml">
+      <configuration name="Nosetests in test2.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="11" y="99" width="1387" height="904" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3732342" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49410897" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382904" sideWeight="0.54753524" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35368958" sideWeight="0.4524648" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.47887325" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39855072" sideWeight="0.49383804" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24447717" sideWeight="0.50666666" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729468" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
+    <MESSAGE value="1.增加修改昵称&#10;2.首页模块校验" />
+    <MESSAGE value="首页验证点功能增加" />
+    <MESSAGE value="测试集代码运行整理" />
+    <MESSAGE value="1.服务模块元素定位更新&#10;2.新增若干服务的用例模块(内容为空，待编写)" />
+    <MESSAGE value="代码更新" />
+    <MESSAGE value="增加服务的若干模块代码" />
+    <MESSAGE value="增加封装文件处理的py文件" />
+    <MESSAGE value="修改脚本" />
+    <MESSAGE value="有webview的界面，增加webview的元素定位，待处理，如何处理webview页面的操作" />
+    <MESSAGE value="维护现有脚本" />
+    <MESSAGE value="webview页面定位问题解决" />
+    <MESSAGE value="服务模块自动化测试用例编写整理" />
+    <MESSAGE value="新增办卡模块，用例编写中&#10;办卡模块元素定位，用例编写中" />
+    <MESSAGE value="调整文件目录" />
+    <MESSAGE value="微信公众号ui自动化的demo测试完成" />
+    <MESSAGE value="信用管家app&#10;代码定期维护" />
+    <MESSAGE value="信用管家app&#10;增加手工添加订单" />
+    <MESSAGE value="啪啪钱包项目 &#10;test" />
+    <MESSAGE value="啪啪钱包项目 &#10;元素定位初步编写" />
+    <MESSAGE value="啪啪钱包项目 &#10;未登录状态的脚本编写运行" />
+    <MESSAGE value="啪啪钱包项目 &#10;脚本框架" />
+    <MESSAGE value="啪啪钱包项目 &#10;更新代码" />
+    <MESSAGE value="啪啪钱包项目 &#10;转卖流程代码更新" />
+    <MESSAGE value="啪啪钱包项目 &#10;代码修改" />
+    <MESSAGE value="啪啪钱包项目 &#10;2。1。4项目代码更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="啪啪钱包项目 &#10;2。1。4项目代码更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element_locator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/stringHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/main_package.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid_saling_3/5000   below.py" />
+    <entry file="file://$PROJECT_DIR$/test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner_cn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/get_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/dataprovide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/adbUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/start_appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/csorder.py" />
+    <entry file="file://$PROJECT_DIR$/common/sql_normal_csorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal_cspown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal_csmall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/md5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal_csldata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid_certification.py" />
+    <entry file="file://$PROJECT_DIR$/common/encrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_cases_new.py" />
+    <entry file="file://$PROJECT_DIR$/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="370" column="8" lean-forward="false" selection-start-line="370" selection-start-column="8" selection-end-line="370" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal_cscuser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_normal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task/TK_TerminalHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="139" column="36" lean-forward="false" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task/TK_papaandroid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1532930784463" expanded="true" signature="6092:6230" ph="update gzsee... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid9_unlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_cases_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid7_first_sale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid9_buy_above.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="130" column="29" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="130" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid8_buy_below.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid9_saling_above.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="111" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid3_nologin_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/sql_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid4_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid5_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="81" column="58" lean-forward="false" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+          <folding>
+            <marker date="1535530416377" expanded="true" signature="411:412" ph="..." />
+            <marker date="1535530416377" expanded="true" signature="3542:3616" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid6_saling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid1_nologin_firstpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/TC_ppandroid2_nologin_my.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element_locator/papaandroid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

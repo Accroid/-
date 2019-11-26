@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="saas" parallel="false">
+    <test name="folterRules">
+        <classes>
+            <class name="xinniu.test.filterRules.ProductPersonFilter"></class>
+        </classes>
+    </test>
+</suite>
+

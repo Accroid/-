@@ -1,0 +1,1676 @@
+{
+  "kindDetailVos": [
+    {
+      "dicId": "80d00f14-39b5-4d49-a6bd-13867bffaae0",
+      "variableName": "pvuv上限",
+      "variable": "pvuv",
+      "isChecked": false,
+      "sortId": 1,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [
+        {
+          "dicId": "f920622a-a9e2-47b9-bda7-71edc5742ac5",
+          "title": "pv上限",
+          "realColumn": "pv",
+          "type": "ONLY_NUMBER",
+          "options": [
+            {
+              "label": "大于或等于",
+              "value": ">="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": ">",
+          "sortId": 1,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "个",
+          "old": false,
+          "dataSource": "DATA_CENTER_PVUV"
+        },
+        {
+          "dicId": "5cd0545f-8e94-494e-aa23-369e67c36f98",
+          "title": "uv上限",
+          "realColumn": "uv",
+          "type": "ONLY_NUMBER",
+          "options": [
+            {
+              "label": "大于或等于",
+              "value": ">="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": ">",
+          "sortId": 2,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "个",
+          "old": false,
+          "dataSource": "DATA_CENTER_PVUV"
+        }
+      ],
+      "old": false,
+      "dataSource": "DATA_CENTER_PVUV",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "674be61c-9c70-4bcb-b5dd-c4ab83e090fc",
+      "variableName": "黑名单",
+      "variable": "black",
+      "isChecked": false,
+      "sortId": 2,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "HULUWA_BLACK",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "8ee64f11-504a-4416-9dcc-0f69ab69f145",
+      "variableName": "撞库",
+      "variable": "hit",
+      "isChecked": false,
+      "sortId": 3,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "HULUWA_HIT",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "ab2196f3-d9de-4759-a3d4-36fd9cabb893",
+      "variableName": "在途订单",
+      "variable": "order_on_way",
+      "isChecked": false,
+      "sortId": 4,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "HULUWA_APPLY_LOAN_ON_WAY",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "22c31daf-fa52-4c83-976e-f015caaa2a9e",
+      "variableName": "申贷记录",
+      "variable": "order_record",
+      "isChecked": false,
+      "sortId": 5,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "HULUWA_APPLY_LOAN",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "e685a803-a111-472c-9dbc-18d9e64b465f",
+      "variableName": "短信",
+      "variable": "sms",
+      "isChecked": false,
+      "sortId": 6,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "HULUWA_SMS",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "2b225e0c-c97b-495d-98bb-d95fe43a63e9",
+      "variableName": "三方风控",
+      "variable": "third_risk",
+      "isChecked": false,
+      "sortId": 7,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [
+        {
+          "dicId": "94720ae4-85ad-4ef9-aa6b-6e18efe6fdcf",
+          "title": "同盾分",
+          "realColumn": "tongduScore",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 1,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "分",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "08693149-ac45-4206-90af-799b1c37c4bb",
+          "title": "7天内多头平台数（根据身份证号筛选）",
+          "realColumn": "m_platform_idcard_7_days",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 2,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "6e5aabfa-0f26-4a4d-915e-f0bdf4c308d1",
+          "title": "7天内多头平台数（根据手机号筛选）",
+          "realColumn": "m_platform_mobile_7_days",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 3,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "5ff2c3a3-d592-4af2-b68a-febd3b1d9abf",
+          "title": "7天内申请人申请借款互联网小贷类平台数",
+          "realColumn": "m_platform_penny_loan_7_days",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 4,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "9ed4d881-3836-4ce4-9be7-74c8123c3838",
+          "title": "1个月内多头平台数（根据身份证号筛选）",
+          "realColumn": "m_platform_idcard_1_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 5,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "e6a69de6-e507-465c-9637-f97eb164f590",
+          "title": "1个月内多头平台数（根据手机号筛选）",
+          "realColumn": "m_platform_mobile_1_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 6,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "10b62858-50b6-441d-97dc-6a119998354b",
+          "title": "1个月内申请人申请借款互联网小贷类平台数",
+          "realColumn": "m_platform_penny_loan_1_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 7,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "024a4bc9-ce30-4899-abc0-209baaf5b6b3",
+          "title": "3个月内多头平台数（根据身份证号筛选）",
+          "realColumn": "m_platform_idcard_3_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 8,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "d7669371-b275-4b68-8725-76e23865cdff",
+          "title": "3个月内多头平台数（根据手机号筛选）",
+          "realColumn": "m_platform_mobile_3_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 9,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        },
+        {
+          "dicId": "d7091a27-b99f-40c7-9548-6ee2bdd40987",
+          "title": "3个月内申请人申请借款互联网小贷类平台数",
+          "realColumn": "m_platform_penny_loan_3_mon",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": true,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 10,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "THIRD_RISK"
+        }
+      ],
+      "old": false,
+      "dataSource": "THIRD_RISK",
+      "templateName": "",
+      "editEnabled": true
+    },
+    {
+      "dicId": "1b6dd61f-79b2-4494-8671-c125b2a766c1",
+      "variableName": "个性化过滤",
+      "variable": "personal",
+      "isChecked": true,
+      "sortId": 8,
+      "filterType": "BOTTOM",
+      "lowId": "",
+      "ruleDetailVos": [
+        {
+          "dicId": "cf1f71b5-58de-4b63-922a-90fbaf04ecd2",
+          "title": "年龄",
+          "realColumn": "age",
+          "type": "OUT_OF_RANGE",
+          "options": [],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [
+            {
+              "value": "",
+              "operator": "<",
+              "lable": "小于"
+            },
+            {
+              "value": "",
+              "operator": ">",
+              "lable": "大于"
+            }
+          ],
+          "sortId": 1,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "岁",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "f5495a44-3984-4e82-9200-93c1e5f62f15",
+          "title": "冷却期",
+          "realColumn": "freeze",
+          "type": "ONLY_NUMBER",
+          "options": [
+            {
+              "label": "小于或等于",
+              "value": "<="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "<",
+          "sortId": 2,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "天",
+          "old": false,
+          "dataSource": "BASE_ORDER"
+        },
+        {
+          "dicId": "badf8756-fd92-4097-ae0b-2300810d300a",
+          "title": "身份证地址",
+          "realColumn": "idcardAddress",
+          "type": "ADDRESS",
+          "options": [],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [
+            {
+              "sheng": "",
+              "shi": "",
+              "qu": ""
+            }
+          ],
+          "sortId": 3,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "a218f1c9-3b1c-4bf1-8c0f-f9b62ec98c97",
+          "title": "文化程度",
+          "realColumn": "educationLevel",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "未知",
+              "value": "0"
+            },
+            {
+              "label": "初中及以下",
+              "value": "1"
+            },
+            {
+              "label": "中专/高中",
+              "value": "2"
+            },
+            {
+              "label": "大专",
+              "value": "3"
+            },
+            {
+              "label": "本科",
+              "value": "4"
+            },
+            {
+              "label": "硕士及以上",
+              "value": "5"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 4,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "09de377b-4dfe-4fd5-8506-06f8ad0b0a68",
+          "title": "贷款用途",
+          "realColumn": "loanUsage",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "未知",
+              "value": "0"
+            },
+            {
+              "label": "购车",
+              "value": "1"
+            },
+            {
+              "label": "医疗美容",
+              "value": "2"
+            },
+            {
+              "label": "网购",
+              "value": "3"
+            },
+            {
+              "label": "装修",
+              "value": "4"
+            },
+            {
+              "label": "教育",
+              "value": "5"
+            },
+            {
+              "label": "旅游",
+              "value": "6"
+            },
+            {
+              "label": "三农",
+              "value": "7"
+            },
+            {
+              "label": "其他",
+              "value": "8"
+            },
+            {
+              "label": "家具家电",
+              "value": "9"
+            },
+            {
+              "label": "租房",
+              "value": "10"
+            },
+            {
+              "label": "健康医疗",
+              "value": "11"
+            },
+            {
+              "label": "购物",
+              "value": "12"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 5,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "ed223079-9a4f-42fa-9759-9a6a126a39e2",
+          "title": "车辆情况",
+          "realColumn": "carState",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "未知",
+              "value": "0"
+            },
+            {
+              "label": "无车",
+              "value": "1"
+            },
+            {
+              "label": "本人名下有车, 无贷款",
+              "value": "2"
+            },
+            {
+              "label": "本人名下有车, 有按揭贷",
+              "value": "3"
+            },
+            {
+              "label": "本人名下有车,但已被抵押",
+              "value": "4"
+            },
+            {
+              "label": "其他",
+              "value": "5"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 6,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "ecf66894-ff9c-428c-ba15-b5465ccddbc4",
+          "title": "婚姻状态",
+          "realColumn": "maritalStatus",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "未知",
+              "value": "0"
+            },
+            {
+              "label": "未婚",
+              "value": "1"
+            },
+            {
+              "label": "已婚未育",
+              "value": "2"
+            },
+            {
+              "label": "已婚已育",
+              "value": "3"
+            },
+            {
+              "label": "离异",
+              "value": "4"
+            },
+            {
+              "label": "丧偶",
+              "value": "5"
+            },
+            {
+              "label": "其他",
+              "value": "6"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 7,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "a27f4f29-f3c4-4c25-bb2b-c29c7a7795bc",
+          "title": "居住城市",
+          "realColumn": "livingCityCode",
+          "type": "ADDRESS",
+          "options": [],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [
+            {
+              "sheng": "",
+              "shi": "",
+              "qu": ""
+            }
+          ],
+          "sortId": 8,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "c07d8911-2fb3-44e5-9bc9-28161c62ba27",
+          "title": "房屋状况",
+          "realColumn": "houseState",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "无房",
+              "value": "1"
+            },
+            {
+              "label": "本人名下有房, 无贷款",
+              "value": "2"
+            },
+            {
+              "label": "本人名下有房, 有按揭贷款",
+              "value": "3"
+            },
+            {
+              "label": "本人名下有房, 但已被抵押",
+              "value": "4"
+            },
+            {
+              "label": "其他",
+              "value": "5"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 9,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "3e518cf7-af28-440a-915e-fbf1d739516a",
+          "title": "房屋产权地",
+          "realColumn": "livingHouseCityCode",
+          "type": "ADDRESS",
+          "options": [],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [
+            {
+              "sheng": "",
+              "shi": "",
+              "qu": ""
+            }
+          ],
+          "sortId": 10,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "4973eb5e-0310-48f5-b1e9-b135c4033186",
+          "title": "职业类型",
+          "realColumn": "job",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "上班族",
+              "value": "1"
+            },
+            {
+              "label": "创业者",
+              "value": "2"
+            },
+            {
+              "label": "个体户",
+              "value": "3"
+            },
+            {
+              "label": "工人",
+              "value": "4"
+            },
+            {
+              "label": "教师",
+              "value": "5"
+            },
+            {
+              "label": "企业法人",
+              "value": "6"
+            },
+            {
+              "label": "网店店主",
+              "value": "7"
+            },
+            {
+              "label": "暂无职业",
+              "value": "8"
+            },
+            {
+              "label": "其他",
+              "value": "9"
+            },
+            {
+              "label": "军人",
+              "value": "10"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 11,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "3b59cf1d-2578-44c7-8397-2962b15ad0b9",
+          "title": "公司所在城市",
+          "realColumn": "comCityCode",
+          "type": "ADDRESS",
+          "options": [],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [
+            {
+              "sheng": "",
+              "shi": "",
+              "qu": ""
+            }
+          ],
+          "sortId": 12,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "89e06525-74bc-4edc-9146-af3c02a29be6",
+          "title": "所属行业",
+          "realColumn": "industry",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "批发/零售",
+              "value": "1"
+            },
+            {
+              "label": "制造业",
+              "value": "2"
+            },
+            {
+              "label": "金融/保险/证券",
+              "value": "3"
+            },
+            {
+              "label": "住宿/餐饮/旅游",
+              "value": "4"
+            },
+            {
+              "label": "商业服务/娱乐/艺术/体育",
+              "value": "5"
+            },
+            {
+              "label": "计算机/互联网",
+              "value": "6"
+            },
+            {
+              "label": "通讯电子",
+              "value": "7"
+            },
+            {
+              "label": "建筑/房地产",
+              "value": "8"
+            },
+            {
+              "label": "法律/咨询",
+              "value": "9"
+            },
+            {
+              "label": "卫生/教育/社会服务",
+              "value": "10"
+            },
+            {
+              "label": "公共事业/社会团体",
+              "value": "11"
+            },
+            {
+              "label": "生物/制药",
+              "value": "12"
+            },
+            {
+              "label": "广告/媒体",
+              "value": "13"
+            },
+            {
+              "label": "能源",
+              "value": "14"
+            },
+            {
+              "label": "贸易",
+              "value": "15"
+            },
+            {
+              "label": "交通运输/仓储/物流",
+              "value": "16"
+            },
+            {
+              "label": "其他行业",
+              "value": "17"
+            },
+            {
+              "label": "农业/化工/金属冶炼",
+              "value": "18"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 13,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "832abec0-9b03-4127-9bb3-f69a521b93aa",
+          "title": "最近入职时间",
+          "realColumn": "recentEntry",
+          "type": "DATE",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 14,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "月",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "7c3dd019-e55b-4680-9e71-6ff4dc80e46d",
+          "title": "参加工作时间",
+          "realColumn": "workDate",
+          "type": "DATE",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 15,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "月",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "69dfb63a-59eb-4b11-82dc-54395c417c67",
+          "title": "收入来源",
+          "realColumn": "incomeSource",
+          "type": "SELECTION",
+          "options": [
+            {
+              "label": "未知",
+              "value": "0"
+            },
+            {
+              "label": "工资奖金",
+              "value": "1"
+            },
+            {
+              "label": "经营收入",
+              "value": "2"
+            },
+            {
+              "label": "投资理财",
+              "value": "3"
+            },
+            {
+              "label": "房租收入",
+              "value": "4"
+            },
+            {
+              "label": "其他收入",
+              "value": "5"
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": [],
+          "sortId": 16,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "6af85afb-5462-4741-8d15-700824018c59",
+          "title": "月收入",
+          "realColumn": "monthlySource",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 17,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "元",
+          "old": false,
+          "dataSource": "CSCDATA"
+        },
+        {
+          "dicId": "28ebf527-b181-498c-8fe2-b498296aa248",
+          "title": "运营商在网时长",
+          "realColumn": "operatorOnlineDuration",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 18,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "月",
+          "old": false,
+          "dataSource": "OPERATOR"
+        },
+        {
+          "dicId": "e22f50c7-6f12-40d9-9c9e-6e16c8e2544d",
+          "title": "运营商需要实名",
+          "realColumn": "operatorRealName",
+          "type": "BOOLEAN",
+          "options": [
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "!=",
+          "sortId": 19,
+          "placeholder": "",
+          "desc": "",
+          "value": "1",
+          "text": "",
+          "old": false,
+          "dataSource": "OPERATOR"
+        },
+        {
+          "dicId": "b5a06192-1115-4b50-b3b0-65e5beeb4450",
+          "title": "进件量",
+          "realColumn": "applyOrders",
+          "type": "ONLY_NUMBER",
+          "options": [
+            {
+              "label": "大于或等于",
+              "value": ">="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": true,
+          "selectOptions": ">",
+          "sortId": 19,
+          "placeholder": "",
+          "desc": "",
+          "value": "1000",
+          "text": "",
+          "old": true,
+          "dataSource": "BASE_ORDER"
+        },
+        {
+          "dicId": "7cfb9318-bf12-4ecb-9950-051d36e4ee38",
+          "title": "老用户进件",
+          "realColumn": "applyOrdersOldUser",
+          "type": "BOOLEAN",
+          "options": [
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "!=",
+          "sortId": 20,
+          "placeholder": "",
+          "desc": "",
+          "value": "1",
+          "text": "",
+          "old": false,
+          "dataSource": "BASE_ORDER"
+        },
+        {
+          "dicId": "89560bc8-297b-4728-b07e-b09e6503f296",
+          "title": "公积金缴存状态是否正常",
+          "realColumn": "gjjStatus",
+          "type": "BOOLEAN",
+          "options": [
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "!=",
+          "sortId": 20,
+          "placeholder": "",
+          "desc": "",
+          "value": "1",
+          "text": "",
+          "old": false,
+          "dataSource": "GJJ"
+        },
+        {
+          "dicId": "4359b1c3-1deb-4ed5-81fa-54bde7f6914f",
+          "title": "公积金月缴存额",
+          "realColumn": "gjjMonthPayAmount",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 21,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "GJJ"
+        },
+        {
+          "dicId": "ce12d686-c8d6-4ebc-b7e3-3ad19665aa5d",
+          "title": "公积金缴存基数",
+          "realColumn": "gjjPayBase",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 22,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "GJJ"
+        },
+        {
+          "dicId": "db5efcfc-e068-4f3d-ba47-5e96f7367fc1",
+          "title": "公积金连续缴存月数",
+          "realColumn": "gjjSerialMonth",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 23,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "GJJ"
+        },
+        {
+          "dicId": "f8935124-332d-4d64-93e5-8406e2a53860",
+          "title": "公积金累计缴存月数",
+          "realColumn": "gjjTotalMonth",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 24,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "",
+          "old": false,
+          "dataSource": "GJJ"
+        },
+        {
+          "dicId": "246fcedd-f296-4827-bfb4-29430cf9d072",
+          "title": "信用卡授信金额",
+          "realColumn": "creditCardLimit",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 25,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "元",
+          "old": false,
+          "dataSource": "BILL"
+        },
+        {
+          "dicId": "db894014-ce16-47ff-8224-82f528e018e4",
+          "title": "信用卡开户时长（月）",
+          "realColumn": "creditCardAccountOpeningTime",
+          "type": "NUMBER",
+          "options": [
+            {
+              "label": "大于",
+              "value": ">"
+            },
+            {
+              "label": "大于或等于",
+              "value": ">="
+            },
+            {
+              "label": "小于",
+              "value": "<"
+            },
+            {
+              "label": "小于或等于",
+              "value": "<="
+            },
+            {
+              "label": "等于",
+              "value": "=="
+            },
+            {
+              "label": "不等于",
+              "value": "!="
+            }
+          ],
+          "editEnabled": false,
+          "isChecked": false,
+          "selectOptions": "",
+          "sortId": 30,
+          "placeholder": "",
+          "desc": "",
+          "value": "",
+          "text": "月",
+          "old": false,
+          "dataSource": "BILL"
+        }
+      ],
+      "old": true,
+      "dataSource": "CSCDATA",
+      "templateName": "",
+      "editEnabled": false
+    },
+    {
+      "dicId": "d1bd33ba-662b-4bc6-9123-b625e8190c33",
+      "variableName": "逾期黑名单",
+      "variable": "overdueBlack",
+      "isChecked": false,
+      "sortId": 9,
+      "filterType": "FILTER",
+      "lowId": "",
+      "ruleDetailVos": [],
+      "old": false,
+      "dataSource": "OVERDUE_BLACK",
+      "templateName": "",
+      "editEnabled": true
+    }
+  ],
+  "psIds": "PS2019071610575975780008093421"
+}

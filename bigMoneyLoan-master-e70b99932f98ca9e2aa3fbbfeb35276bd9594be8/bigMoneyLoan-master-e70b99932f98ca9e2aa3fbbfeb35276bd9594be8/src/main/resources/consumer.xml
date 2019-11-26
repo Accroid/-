@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <context:component-scan base-package="com.xinniu.base.facade"></context:component-scan>
+
+    <!-- 1、指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名） -->
+    <dubbo:application name="xinniu-test-filter"></dubbo:application>
+    <!-- 2、指定注册中心的位置 -->
+    <dubbo:registry protocol="zookeeper" address="zookeeper://zk01.xinniu.org:2181?backup=zk02.xinniu.org:2181,zk03.xinniu.org:2181" port="31881"></dubbo:registry>
+    <!-- 3、声明需要调用的远程服务的接口；生成远程服务代理 -->
+    <dubbo:reference id="ruleFilterClient" check="false" interface="com.xinniu.base.facade.RuleFilterClient"></dubbo:reference>
+    <dubbo:reference id="saasRuleFilterClient" check="false" interface="com.xinniu.base.facade.SaasRuleFilterClient"></dubbo:reference>
+
+
+</beans>

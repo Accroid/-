@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181016 10:15:16.807" generator="Robot 3.0.4 (Python 2.7.15 on darwin)">
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc" id="s1" name="PPQBuitest">
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid1_nologin_firstpage.robot" id="s1-s1" name="TC ppandroid1 nologin firstpage">
+<test id="s1-s1-t1" name="首页-有好货页面页面元素验证-001">
+<kw name="Test Nologin Firstpage" library="TC_ppandroid1_nologin_firstpage">
+<doc>“首页-有好货页面页面元素验证</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:16:02.949" level="INFO">${ret} = (True, True, True, True)</msg>
+<status status="PASS" endtime="20181016 10:16:02.949" starttime="20181016 10:15:17.017"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:16:02.952" level="INFO">${result1} = True</msg>
+<status status="PASS" endtime="20181016 10:16:02.952" starttime="20181016 10:16:02.950"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:16:02.953" starttime="20181016 10:16:02.953"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:16:02.953" starttime="20181016 10:16:02.952"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:16:02.955" level="INFO">${result2} = True</msg>
+<status status="PASS" endtime="20181016 10:16:02.955" starttime="20181016 10:16:02.954"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:16:02.956" starttime="20181016 10:16:02.956"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:16:02.956" starttime="20181016 10:16:02.955"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[2]</arg>
+</arguments>
+<assign>
+<var>${result3}</var>
+</assign>
+<msg timestamp="20181016 10:16:02.957" level="INFO">${result3} = True</msg>
+<status status="PASS" endtime="20181016 10:16:02.957" starttime="20181016 10:16:02.956"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:16:02.958" starttime="20181016 10:16:02.958"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:16:02.958" starttime="20181016 10:16:02.957"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[2]</arg>
+</arguments>
+<assign>
+<var>${result4}</var>
+</assign>
+<msg timestamp="20181016 10:16:02.959" level="INFO">${result4} = True</msg>
+<status status="PASS" endtime="20181016 10:16:02.959" starttime="20181016 10:16:02.958"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result4}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result4}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:16:02.960" starttime="20181016 10:16:02.960"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:16:02.960" starttime="20181016 10:16:02.959"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid1_nologin_firstpage">
+<status status="PASS" endtime="20181016 10:16:04.478" starttime="20181016 10:16:02.960"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:16:04.478" critical="yes" starttime="20181016 10:15:17.016"></status>
+</test>
+<status status="PASS" endtime="20181016 10:16:04.479" starttime="20181016 10:15:16.825"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid2_nologin_my.robot" id="s1-s2" name="TC ppandroid2 nologin my">
+<test id="s1-s2-t1" name="“我的”页面验证页面要素跳转-001">
+<kw name="Test Nologin My" library="TC_ppandroid2_nologin_my">
+<doc>“我的”页面验证页面元素跳转</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:17:03.727" level="INFO">${ret} = (True, True)</msg>
+<status status="PASS" endtime="20181016 10:17:03.727" starttime="20181016 10:16:04.487"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:17:03.729" level="INFO">${result1} = True</msg>
+<status status="PASS" endtime="20181016 10:17:03.729" starttime="20181016 10:17:03.728"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:17:03.730" starttime="20181016 10:17:03.729"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:17:03.730" starttime="20181016 10:17:03.729"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:17:03.731" level="INFO">${result2} = True</msg>
+<status status="PASS" endtime="20181016 10:17:03.731" starttime="20181016 10:17:03.730"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:17:03.732" starttime="20181016 10:17:03.731"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:17:03.732" starttime="20181016 10:17:03.731"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid2_nologin_my">
+<status status="PASS" endtime="20181016 10:17:05.235" starttime="20181016 10:17:03.732"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:17:05.236" critical="yes" starttime="20181016 10:16:04.485"></status>
+</test>
+<status status="PASS" endtime="20181016 10:17:05.236" starttime="20181016 10:16:04.480"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid4_new.robot" id="s1-s3" name="TC ppandroid4 new">
+<test id="s1-s3-t1" name="新用户注册验证，在登陆账号框内输入错误的手机号（长度）-001">
+<kw name="Test New1" library="TC_ppandroid4_new">
+<doc>“新用户注册验证，在登陆账号框内输入错误的手机号（长度）</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:17:57.323" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:17:57.323" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:17:57.323" starttime="20181016 10:17:05.245"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:17:57.324" starttime="20181016 10:17:57.324"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:17:57.325" starttime="20181016 10:17:57.324"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:17:57.325" critical="yes" starttime="20181016 10:17:05.242"></status>
+</test>
+<test id="s1-s3-t2" name="新用户注册验证，在登陆账号框内输入错误的手机号（字符类型）-001">
+<kw name="Test New2" library="TC_ppandroid4_new">
+<doc>“新用户注册验证，在登陆账号框内输入错误的手机号（字符类型）</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:18:03.876" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:18:03.877" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:18:03.877" starttime="20181016 10:17:57.331"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:18:03.879" starttime="20181016 10:18:03.878"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:18:03.879" starttime="20181016 10:18:03.877"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:18:03.879" critical="yes" starttime="20181016 10:17:57.325"></status>
+</test>
+<test id="s1-s3-t3" name="新用户注册验证，在登陆账号框内输入未注册过的手机号，点击下一步，并在设置密码页面输入不符合密码规则的密码（长度）-001">
+<kw name="Test New3" library="TC_ppandroid4_new">
+<doc>“新用户注册验证，在登陆账号框内输入未注册过的手机号，点击下一步，并在设置密码页面输入不符合密码规则的密码（长度）</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:18:25.521" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:18:25.522" level="INFO">${ret} = (True, &lt;appium.webdriver.webelement.WebElement (session="b657d603-b34b-461e-814d-21baae24cab5", element="ad798c61-518e-4675-8975-0589aa85fd45")&gt;)</msg>
+<status status="PASS" endtime="20181016 10:18:25.522" starttime="20181016 10:18:03.887"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:18:25.524" level="INFO">${result1} = True</msg>
+<status status="PASS" endtime="20181016 10:18:25.524" starttime="20181016 10:18:25.522"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:18:25.526" starttime="20181016 10:18:25.525"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:18:25.526" starttime="20181016 10:18:25.525"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:18:25.528" level="INFO">${result2} = &lt;appium.webdriver.webelement.WebElement (session="b657d603-b34b-461e-814d-21baae24cab5", element="ad798c61-518e-4675-8975-0589aa85fd45")&gt;</msg>
+<status status="PASS" endtime="20181016 10:18:25.528" starttime="20181016 10:18:25.527"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should not be empty</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<msg timestamp="20181016 10:18:25.529" level="INFO">Length is 157</msg>
+<status status="PASS" endtime="20181016 10:18:25.530" starttime="20181016 10:18:25.529"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:18:25.530" starttime="20181016 10:18:25.528"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid4_new">
+<status status="PASS" endtime="20181016 10:18:27.059" starttime="20181016 10:18:25.530"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:18:27.060" critical="yes" starttime="20181016 10:18:03.879"></status>
+</test>
+<status status="PASS" endtime="20181016 10:18:27.061" starttime="20181016 10:17:05.237"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid5_old.robot" id="s1-s4" name="TC ppandroid5 old">
+<test id="s1-s4-t1" name="在登陆账号框内输入错误的手机号（字符类型）-001">
+<kw name="Test Old1" library="TC_ppandroid5_old">
+<doc>“在登陆账号框内输入错误的手机号（字符类型）</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:19:18.189" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:19:18.190" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:19:18.190" starttime="20181016 10:18:27.074"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:19:18.192" starttime="20181016 10:19:18.191"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:18.192" starttime="20181016 10:19:18.190"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:18.193" critical="yes" starttime="20181016 10:18:27.069"></status>
+</test>
+<test id="s1-s4-t2" name="老用户登陆验证，输入已注册的手机号，点击下一步按钮，点击忘记密码按钮-001">
+<kw name="Test Old2" library="TC_ppandroid5_old">
+<doc>“老用户登陆验证，输入已注册的手机号，点击下一步按钮，点击忘记密码按钮</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:19:27.518" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:19:27.518" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:19:27.518" starttime="20181016 10:19:18.198"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:19:27.520" starttime="20181016 10:19:27.519"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:27.520" starttime="20181016 10:19:27.519"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:27.521" critical="yes" starttime="20181016 10:19:18.193"></status>
+</test>
+<test id="s1-s4-t3" name="老用户登陆验证，在找回密码页面不输入任何数据，点击完成-001">
+<kw name="Test Old3" library="TC_ppandroid5_old">
+<doc>“老用户登陆验证，在找回密码页面不输入任何数据，点击完成</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:19:34.912" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:19:34.913" starttime="20181016 10:19:27.526"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:19:34.915" starttime="20181016 10:19:34.914"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:34.915" starttime="20181016 10:19:34.914"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:34.915" critical="yes" starttime="20181016 10:19:27.521"></status>
+</test>
+<test id="s1-s4-t4" name="在找回密码页面输入错误的密码（长度错误），点击完成-001">
+<kw name="Test Old4" library="TC_ppandroid5_old">
+<doc>“在找回密码页面输入错误的密码（长度错误），点击完成</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:19:53.357" level="INFO">------------------------------</msg>
+<msg timestamp="20181016 10:19:53.357" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:19:53.357" starttime="20181016 10:19:34.920"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${ret}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:19:53.359" starttime="20181016 10:19:53.358"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:53.359" starttime="20181016 10:19:53.358"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:19:53.359" critical="yes" starttime="20181016 10:19:34.916"></status>
+</test>
+<test id="s1-s4-t5" name="在找回密码页面输入错误的密码（长度错误），点击完成-001">
+<kw name="Test Old5" library="TC_ppandroid5_old">
+<doc>“在找回密码页面输入密码，验证码，图形验证码，点击完成</doc>
+<msg timestamp="20181016 10:20:11.505" level="INFO">------------------------------</msg>
+<status status="PASS" endtime="20181016 10:20:11.506" starttime="20181016 10:19:53.367"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid5_old">
+<status status="PASS" endtime="20181016 10:20:13.055" starttime="20181016 10:20:11.506"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:20:13.055" critical="yes" starttime="20181016 10:19:53.361"></status>
+</test>
+<status status="PASS" endtime="20181016 10:20:13.059" starttime="20181016 10:18:27.062"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid6_saling.robot" id="s1-s5" name="TC ppandroid6 saling">
+<test id="s1-s5-t1" name="首次注册用户，已填写资料认证，进行转卖流程-001">
+<kw name="Test Saling" library="TC_ppandroid6_saling">
+<doc>“首次注册用户，已填写资料认证，进行转卖流程</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:21:11.722" level="INFO">弹出转卖换钱规则解释浮层</msg>
+<msg timestamp="20181016 10:21:11.723" level="INFO">${ret} = True</msg>
+<status status="PASS" endtime="20181016 10:21:11.723" starttime="20181016 10:20:13.071"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20181016 10:21:11.725" level="INFO">${result} = True</msg>
+<status status="PASS" endtime="20181016 10:21:11.725" starttime="20181016 10:21:11.723"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:21:11.726" starttime="20181016 10:21:11.726"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:21:11.726" starttime="20181016 10:21:11.725"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid6_saling">
+<status status="PASS" endtime="20181016 10:21:13.223" starttime="20181016 10:21:11.727"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:21:13.223" critical="yes" starttime="20181016 10:20:13.067"></status>
+</test>
+<status status="PASS" endtime="20181016 10:21:13.224" starttime="20181016 10:20:13.061"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid8_buy_below.robot" id="s1-s6" name="TC ppandroid8 buy below">
+<test id="s1-s6-t1" name="确认购买页面选中现金支付，点击确认购买按钮-001">
+<kw name="Test Buy Below2" library="TC_ppandroid8_buy_below">
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:22:40.414" level="INFO">${ret} = (True, True, True)</msg>
+<status status="PASS" endtime="20181016 10:22:40.414" starttime="20181016 10:21:13.233"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:22:40.416" level="INFO">${result1} = True</msg>
+<status status="PASS" endtime="20181016 10:22:40.417" starttime="20181016 10:22:40.415"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:22:40.418" level="INFO">${result2} = True</msg>
+<status status="PASS" endtime="20181016 10:22:40.418" starttime="20181016 10:22:40.417"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[2]</arg>
+</arguments>
+<assign>
+<var>${result3}</var>
+</assign>
+<msg timestamp="20181016 10:22:40.420" level="INFO">${result3} = True</msg>
+<status status="PASS" endtime="20181016 10:22:40.420" starttime="20181016 10:22:40.419"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result1}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:22:40.421" starttime="20181016 10:22:40.420"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:22:40.421" starttime="20181016 10:22:40.420"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result2}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:22:40.422" starttime="20181016 10:22:40.421"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:22:40.422" starttime="20181016 10:22:40.421"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:22:40.423" starttime="20181016 10:22:40.422"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:22:40.423" starttime="20181016 10:22:40.422"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:22:40.423" critical="yes" starttime="20181016 10:21:13.231"></status>
+</test>
+<test id="s1-s6-t2" name="在编辑地址页面不输入任何数据，点击保存按钮-001">
+<kw name="Test Buy Below3" library="TC_ppandroid8_buy_below">
+<doc>“点击添加收货地址完成后，返回点击添加等操作</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:23:25.268" level="INFO">${ret} = (u'wuyuexin', 'wuyuexin')</msg>
+<status status="PASS" endtime="20181016 10:23:25.268" starttime="20181016 10:22:40.426"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:23:25.269" level="INFO">${result1} = wuyuexin</msg>
+<status status="PASS" endtime="20181016 10:23:25.269" starttime="20181016 10:23:25.268"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:23:25.270" level="INFO">${result2} = wuyuexin</msg>
+<status status="PASS" endtime="20181016 10:23:25.270" starttime="20181016 10:23:25.269"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:23:25.272" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:23:25.272" starttime="20181016 10:23:25.271"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:23:25.272" starttime="20181016 10:23:25.270"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid8_buy_below">
+<status status="PASS" endtime="20181016 10:23:27.147" starttime="20181016 10:23:25.273"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:23:27.147" critical="yes" starttime="20181016 10:22:40.423"></status>
+</test>
+<status status="PASS" endtime="20181016 10:23:27.148" starttime="20181016 10:21:13.225"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid9_buy_above.robot" id="s1-s7" name="TC ppandroid9 buy above">
+<test id="s1-s7-t1" name="新用户估值额度高于商品价格进行信用支付购买商品流程，购买到待发货-001">
+<kw name="Test Buy Above1" library="TC_ppandroid9_buy_above">
+<doc>“新用户估值额度高于商品价格进行信用支付购买商品流程，购买到待发货</doc>
+<status status="PASS" endtime="20181016 10:24:33.570" starttime="20181016 10:23:27.159"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:24:33.571" critical="yes" starttime="20181016 10:23:27.155"></status>
+</test>
+<test id="s1-s7-t2" name="订单为待发货状态，且卡内余额等于还款金额，进行还款操作-001">
+<kw name="Test Buy Above2" library="TC_ppandroid9_buy_above">
+<doc>“订单为待发货状态，且卡内余额等于还款金额，进行还款操作</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:25:05.509" level="INFO">${ret} = (u'\u5f85\u53d1\u8d27', '\xe5\xbe\x85\xe5\x8f\x91\xe8\xb4\xa7', u'\u4ea4\u6613\u5b8c\u6210', '\xe4\xba\xa4\xe6\x98\x93\xe5\xae\x8c\xe6\x88\x90')</msg>
+<status status="PASS" endtime="20181016 10:25:05.509" starttime="20181016 10:24:33.576"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:25:05.512" level="INFO">${result1} = 待发货</msg>
+<status status="PASS" endtime="20181016 10:25:05.512" starttime="20181016 10:25:05.510"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:25:05.514" level="INFO">${result2} = \xe5\xbe\x85\xe5\x8f\x91\xe8\xb4\xa7</msg>
+<status status="PASS" endtime="20181016 10:25:05.514" starttime="20181016 10:25:05.512"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[2]</arg>
+</arguments>
+<assign>
+<var>${result3}</var>
+</assign>
+<msg timestamp="20181016 10:25:05.515" level="INFO">${result3} = 交易完成</msg>
+<status status="PASS" endtime="20181016 10:25:05.515" starttime="20181016 10:25:05.514"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[3]</arg>
+</arguments>
+<assign>
+<var>${result4}</var>
+</assign>
+<msg timestamp="20181016 10:25:05.517" level="INFO">${result4} = \xe4\xba\xa4\xe6\x98\x93\xe5\xae\x8c\xe6\x88\x90</msg>
+<status status="PASS" endtime="20181016 10:25:05.517" starttime="20181016 10:25:05.516"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:25:05.518" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:25:05.518" starttime="20181016 10:25:05.518"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:05.518" starttime="20181016 10:25:05.517"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result3}</arg>
+<arg>${result4}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result3}</arg>
+<arg>${result4}</arg>
+</arguments>
+<msg timestamp="20181016 10:25:05.519" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:25:05.519" starttime="20181016 10:25:05.519"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:05.519" starttime="20181016 10:25:05.518"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:05.520" critical="yes" starttime="20181016 10:24:33.572"></status>
+</test>
+<test id="s1-s7-t3" name="订单为已发货状态，且卡内余额等于还款金额，进行还款操作-001">
+<kw name="Test Buy Above3" library="TC_ppandroid9_buy_above">
+<doc>“订单为已发货状态，且卡内余额等于还款金额，进行还款操作</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:25:36.833" level="INFO">${ret} = (u'\u4ea4\u6613\u5b8c\u6210', '\xe4\xba\xa4\xe6\x98\x93\xe5\xae\x8c\xe6\x88\x90', True)</msg>
+<status status="PASS" endtime="20181016 10:25:36.834" starttime="20181016 10:25:05.523"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:25:36.836" level="INFO">${result1} = 交易完成</msg>
+<status status="PASS" endtime="20181016 10:25:36.836" starttime="20181016 10:25:36.834"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:25:36.839" level="INFO">${result2} = \xe4\xba\xa4\xe6\x98\x93\xe5\xae\x8c\xe6\x88\x90</msg>
+<status status="PASS" endtime="20181016 10:25:36.839" starttime="20181016 10:25:36.837"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[2]</arg>
+</arguments>
+<assign>
+<var>${result3}</var>
+</assign>
+<msg timestamp="20181016 10:25:36.842" level="INFO">${result3} = True</msg>
+<status status="PASS" endtime="20181016 10:25:36.842" starttime="20181016 10:25:36.840"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:25:36.843" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:25:36.843" starttime="20181016 10:25:36.843"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:36.843" starttime="20181016 10:25:36.842"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be true</arg>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${result3}' == 'True'</arg>
+</arguments>
+<status status="PASS" endtime="20181016 10:25:36.844" starttime="20181016 10:25:36.844"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:36.844" starttime="20181016 10:25:36.843"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid9_buy_above">
+<status status="PASS" endtime="20181016 10:25:38.600" starttime="20181016 10:25:36.844"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:25:38.600" critical="yes" starttime="20181016 10:25:05.520"></status>
+</test>
+<status status="PASS" endtime="20181016 10:25:38.601" starttime="20181016 10:23:27.150"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid9_saling_above.robot" id="s1-s8" name="TC ppandroid9 saling above">
+<test id="s1-s8-t1" name="单期转卖成功，还款，银行卡余额等于还款金额-001">
+<kw name="Test Saling Above1" library="TC_ppandroid9_saling_above">
+<doc>“单期转卖成功，还款，银行卡余额等于还款金额</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:26:58.165" level="INFO">${ret} = (u'\u5df2\u7ed3\u6e05', '\xe5\xb7\xb2\xe7\xbb\x93\xe6\xb8\x85')</msg>
+<status status="PASS" endtime="20181016 10:26:58.165" starttime="20181016 10:25:38.611"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:26:58.168" level="INFO">${result1} = 已结清</msg>
+<status status="PASS" endtime="20181016 10:26:58.168" starttime="20181016 10:26:58.166"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:26:58.170" level="INFO">${result2} = \xe5\xb7\xb2\xe7\xbb\x93\xe6\xb8\x85</msg>
+<status status="PASS" endtime="20181016 10:26:58.170" starttime="20181016 10:26:58.168"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:26:58.171" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:26:58.171" starttime="20181016 10:26:58.170"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:26:58.171" starttime="20181016 10:26:58.170"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:26:58.171" critical="yes" starttime="20181016 10:25:38.608"></status>
+</test>
+<test id="s1-s8-t2" name="转卖选择多期，提前结清，点击查看还款计划-001">
+<kw name="Test Saling Above2" library="TC_ppandroid9_saling_above">
+<doc>“转卖选择多期，提前结清，点击查看还款计划</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:27:20.704" level="INFO">${ret} = (u'\u5df2\u7ed3\u6e05', '\xe5\xb7\xb2\xe7\xbb\x93\xe6\xb8\x85')</msg>
+<status status="PASS" endtime="20181016 10:27:20.704" starttime="20181016 10:26:58.175"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:27:20.707" level="INFO">${result1} = 已结清</msg>
+<status status="PASS" endtime="20181016 10:27:20.707" starttime="20181016 10:27:20.705"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:27:20.709" level="INFO">${result2} = \xe5\xb7\xb2\xe7\xbb\x93\xe6\xb8\x85</msg>
+<status status="PASS" endtime="20181016 10:27:20.709" starttime="20181016 10:27:20.707"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:27:20.710" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:27:20.710" starttime="20181016 10:27:20.709"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:27:20.710" starttime="20181016 10:27:20.709"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:27:20.710" critical="yes" starttime="20181016 10:26:58.172"></status>
+</test>
+<test id="s1-s8-t3" name="多期转卖成功，已存在逾期，点击查看还款计划-001">
+<kw name="Test Saling Above3" library="TC_ppandroid9_saling_above">
+<doc>“多期转卖成功，已存在逾期，点击查看还款计划</doc>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181016 10:27:38.568" level="INFO">${ret} = (u'\u5df2\u903e\u671f', '\xe5\xb7\xb2\xe9\x80\xbe\xe6\x9c\x9f')</msg>
+<status status="PASS" endtime="20181016 10:27:38.568" starttime="20181016 10:27:20.713"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[0]</arg>
+</arguments>
+<assign>
+<var>${result1}</var>
+</assign>
+<msg timestamp="20181016 10:27:38.571" level="INFO">${result1} = 已逾期</msg>
+<status status="PASS" endtime="20181016 10:27:38.571" starttime="20181016 10:27:38.569"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret[1]</arg>
+</arguments>
+<assign>
+<var>${result2}</var>
+</assign>
+<msg timestamp="20181016 10:27:38.573" level="INFO">${result2} = \xe5\xb7\xb2\xe9\x80\xbe\xe6\x9c\x9f</msg>
+<status status="PASS" endtime="20181016 10:27:38.573" starttime="20181016 10:27:38.571"></status>
+</kw>
+<kw name="Run Keyword And Continue On Failure" library="BuiltIn">
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<arguments>
+<arg>should be equal</arg>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${result1}</arg>
+<arg>${result2}</arg>
+</arguments>
+<msg timestamp="20181016 10:27:38.574" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20181016 10:27:38.574" starttime="20181016 10:27:38.574"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:27:38.574" starttime="20181016 10:27:38.573"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid9_saling_above">
+<status status="PASS" endtime="20181016 10:27:40.130" starttime="20181016 10:27:38.575"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:27:40.130" critical="yes" starttime="20181016 10:27:20.710"></status>
+</test>
+<status status="PASS" endtime="20181016 10:27:40.131" starttime="20181016 10:25:38.602"></status>
+</suite>
+<suite source="/Users/testadmin/UIAutoTestCase_papa_rf/tc/TC_ppandroid9_unlogin.robot" id="s1-s9" name="TC ppandroid9 unlogin">
+<test id="s1-s9-t1" name="进行退出登录-001">
+<kw name="Test Loginout" library="TC_ppandroid9_unlogin">
+<doc>进行退出登录</doc>
+<status status="PASS" endtime="20181016 10:28:31.289" starttime="20181016 10:27:40.140"></status>
+</kw>
+<kw name="Quit" library="TC_ppandroid9_unlogin">
+<status status="PASS" endtime="20181016 10:28:32.761" starttime="20181016 10:28:31.290"></status>
+</kw>
+<status status="PASS" endtime="20181016 10:28:32.761" critical="yes" starttime="20181016 10:27:40.139"></status>
+</test>
+<status status="PASS" endtime="20181016 10:28:32.762" starttime="20181016 10:27:40.134"></status>
+</suite>
+<status status="PASS" endtime="20181016 10:28:32.765" starttime="20181016 10:15:16.809"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="20">Critical Tests</stat>
+<stat fail="0" pass="20">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="PPQBuitest" pass="20">PPQBuitest</stat>
+<stat fail="0" id="s1-s1" name="TC ppandroid1 nologin firstpage" pass="1">PPQBuitest.TC ppandroid1 nologin firstpage</stat>
+<stat fail="0" id="s1-s2" name="TC ppandroid2 nologin my" pass="1">PPQBuitest.TC ppandroid2 nologin my</stat>
+<stat fail="0" id="s1-s3" name="TC ppandroid4 new" pass="3">PPQBuitest.TC ppandroid4 new</stat>
+<stat fail="0" id="s1-s4" name="TC ppandroid5 old" pass="5">PPQBuitest.TC ppandroid5 old</stat>
+<stat fail="0" id="s1-s5" name="TC ppandroid6 saling" pass="1">PPQBuitest.TC ppandroid6 saling</stat>
+<stat fail="0" id="s1-s6" name="TC ppandroid8 buy below" pass="2">PPQBuitest.TC ppandroid8 buy below</stat>
+<stat fail="0" id="s1-s7" name="TC ppandroid9 buy above" pass="3">PPQBuitest.TC ppandroid9 buy above</stat>
+<stat fail="0" id="s1-s8" name="TC ppandroid9 saling above" pass="3">PPQBuitest.TC ppandroid9 saling above</stat>
+<stat fail="0" id="s1-s9" name="TC ppandroid9 unlogin" pass="1">PPQBuitest.TC ppandroid9 unlogin</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181016 10:19:53.360" level="WARN">Multiple test cases with name '在找回密码页面输入错误的密码（长度错误），点击完成-001' executed in test suite 'PPQBuitest.TC ppandroid5 old'.</msg>
+</errors>
+</robot>

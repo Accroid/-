@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181029 11:44:13.939" generator="Robot 3.0.4 (Python 2.7.12 on win32)">
+<suite source="C:\Users\tree\Documents\ApiAutoTestCase_papa\tc" id="s1" name="Tc">
+<suite source="C:\Users\tree\Documents\ApiAutoTestCase_papa\tc\默认分组" id="s1-s1" name="默认分组">
+<suite source="C:\Users\tree\Documents\ApiAutoTestCase_papa\tc\默认分组\Default.robot" id="s1-s1-s1" name="Default">
+<test id="s1-s1-s1-t1" name="订单列表接口-tc0000901-未登录">
+<kw type="setup" name="sessiontoken">
+<kw name="Biz" library="pylib.Account.Account">
+<arguments>
+<arg>${mobile}</arg>
+<arg>${password}</arg>
+<arg>LOGIN</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20181029 11:44:14.809" level="INFO">{
+  "data": {
+    "nickName": "", 
+    "userId": "", 
+    "appUserId": "2018072411313411360001336550", 
+    "isRealName": 1, 
+    "discount": 0, 
+    "sessionToken": "05c77f6f8f27485487a7819b9aa47029", 
+    "portrait": "", 
+    "fullname": "IzEljDG4Y/8kZMhnUzBgEI6zxS9EnUsVeguJn01bN/DSjKjbMvAiRoC5ZfbBiyq8CyiA2FPsJnPXy6JtrTSFU81jITmZ41A1jnp52LAqiF4AOaliCYxGhi96EKbqgizqm9c6V10j12sIGhwpGV3X+WzzCvYb9m9Z7Z9+ASKo2tE=", 
+    "isNewAccount": 0, 
+    "idCardNo": "JdRzpUBg13+JA0bf69TAApoOGGpdTPOZXOiDMKi2kNJWj1IrFyZiOarc+O6ARs5qiPi5vavnnIDRl6dCXE5rEhvGEB8hb/09Bx8yTPFgxvYrmMe0t5Tun162lO1OacJzZ4Kk8e8a96vHpebgEezG8Ka3aGMXh40iGrTX9PJv3pk="
+  }, 
+  "result": {
+    "errorCode": "0204010101", 
+    "message": "登录成功", 
+    "success": true, 
+    "appName": "mpwallet"
+  }
+}</msg>
+<msg timestamp="20181029 11:44:14.809" level="INFO">${result} = {u'data': {u'nickName': u'', u'userId': u'', u'appUserId': u'2018072411313411360001336550', u'isRealName': 1, u'discount': 0, u'sessionToken': u'05c77f6f8f27485487a7819b9aa47029', u'portrait': u'', u'...</msg>
+<status status="PASS" endtime="20181029 11:44:14.809" starttime="20181029 11:44:14.383"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$result['data']['sessionToken']</arg>
+</arguments>
+<assign>
+<var>${token}</var>
+</assign>
+<msg timestamp="20181029 11:44:14.812" level="INFO">${token} = 05c77f6f8f27485487a7819b9aa47029</msg>
+<status status="PASS" endtime="20181029 11:44:14.812" starttime="20181029 11:44:14.810"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${sessiontoken}</arg>
+<arg>${token}</arg>
+</arguments>
+<msg timestamp="20181029 11:44:14.814" level="INFO">${sessiontoken} = 05c77f6f8f27485487a7819b9aa47029</msg>
+<status status="PASS" endtime="20181029 11:44:14.814" starttime="20181029 11:44:14.812"></status>
+</kw>
+<status status="PASS" endtime="20181029 11:44:14.814" starttime="20181029 11:44:14.383"></status>
+</kw>
+<kw name="Order List" library="pylib.Default.Default">
+<arguments>
+<arg>${SPACE}</arg>
+<arg>${pageIndex}</arg>
+<arg>${pageSize}</arg>
+</arguments>
+<assign>
+<var>${ret1}</var>
+</assign>
+<msg timestamp="20181029 11:44:14.827" level="INFO">{
+  "result": {
+    "errorCode": "0000000001", 
+    "message": "当前登录失效，请重新登录！", 
+    "success": false, 
+    "appName": "mpwallet"
+  }
+}</msg>
+<msg timestamp="20181029 11:44:14.827" level="INFO">${ret1} = {u'result': {u'errorCode': u'0000000001', u'message': u'\u5f53\u524d\u767b\u5f55\u5931\u6548\uff0c\u8bf7\u91cd\u65b0\u767b\u5f55\uff01', u'success': False, u'appName': u'mpwallet'}}</msg>
+<status status="PASS" endtime="20181029 11:44:14.827" starttime="20181029 11:44:14.815"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>$ret1['result']['message']</arg>
+</arguments>
+<assign>
+<var>${ret2}</var>
+</assign>
+<msg timestamp="20181029 11:44:14.830" level="INFO">${ret2} = 当前登录失效，请重新登录！</msg>
+<status status="PASS" endtime="20181029 11:44:14.830" starttime="20181029 11:44:14.828"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${ret2}</arg>
+<arg>当前登录失效，请重新登录</arg>
+</arguments>
+<status status="PASS" endtime="20181029 11:44:14.832" starttime="20181029 11:44:14.831"></status>
+</kw>
+<timeout value="2 minutes"></timeout>
+<status status="PASS" endtime="20181029 11:44:14.833" critical="yes" starttime="20181029 11:44:14.381"></status>
+</test>
+<status status="PASS" endtime="20181029 11:44:14.834" starttime="20181029 11:44:13.987"></status>
+</suite>
+<status status="PASS" endtime="20181029 11:44:14.836" starttime="20181029 11:44:13.983"></status>
+</suite>
+<status status="PASS" endtime="20181029 11:44:14.839" starttime="20181029 11:44:13.947"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tc" pass="1">Tc</stat>
+<stat fail="0" id="s1-s1" name="默认分组" pass="1">Tc.默认分组</stat>
+<stat fail="0" id="s1-s1-s1" name="Default" pass="1">Tc.默认分组.Default</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
